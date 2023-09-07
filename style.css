@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Questrial&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    background-color: #0f0d0d;
+}
+.page1{
+    min-height: 100vh;
+    width: 100%;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: #0f0d0d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#nav img{
+    height: 24px;
+}
+#nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 0 30px;
+    font-size: 25px;
+
+}
+.page1 h1{
+    font-size: 8vw;
+    margin-top: 12vw;
+    margin-left: 6vw;
+    font-weight: 300;
+}
+.page1 h2{
+    font-size: 8vw;
+    font-weight: 300;
+    margin-left: 26vw;
+}
+.page1 video{
+    margin-top: 10vw;
+    width:60%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.page2{
+    min-height: 120vh;
+    width: 100%;
+    padding: 100px 5vw;
+    border-bottom: 2px solid #000000;
+}
+.page2 h1{
+    font-size: 6vw;
+    font-weight: 700;
+    color: black;
+    padding: 70px;
+}
+.page2-container{
+    height:60vh;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw;
+}
+.page2-left{
+    width: 38%;
+    color: black;
+}
+.page2-right{
+    color: black;
+    width: 30%;
+}
+.page2-left h2{
+    font-size: 4vw;
+    font-weight: 300;
+    color: black;
+}
+.page2-right p{
+    font-size: 28px;
+    color: black;
+}
+.page2-right button{
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    padding: 5px 0;
+    background-color: rgb(228, 12, 195);
+}
+
+.page3{
+    min-height: 100vh;
+    width: 100%;
+}
+.page3 h1{
+    font-size: 5vw;
+    font-weight: 700;
+
+}
+
+
